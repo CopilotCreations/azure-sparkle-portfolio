@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Languages",
+    "items": [
+      { "name": "TypeScript", "level": "core" },
+      { "name": "JavaScript", "level": "core" },
+      { "name": "Python", "level": "strong" },
+      { "name": "Go", "level": "strong" },
+      { "name": "Rust", "level": "familiar" },
+      { "name": "C#", "level": "familiar" }
+    ]
+  },
+  {
+    "name": "Frontend",
+    "items": [
+      { "name": "React", "level": "core" },
+      { "name": "Vue.js", "level": "strong" },
+      { "name": "HTML/CSS", "level": "core" },
+      { "name": "Tailwind CSS", "level": "core" },
+      { "name": "Next.js", "level": "strong" },
+      { "name": "Svelte", "level": "familiar" }
+    ]
+  },
+  {
+    "name": "Backend",
+    "items": [
+      { "name": "Node.js", "level": "core" },
+      { "name": "Express", "level": "core" },
+      { "name": "FastAPI", "level": "strong" },
+      { "name": "Spring Boot", "level": "familiar" },
+      { "name": "GraphQL", "level": "strong" },
+      { "name": "REST APIs", "level": "core" }
+    ]
+  },
+  {
+    "name": "Databases",
+    "items": [
+      { "name": "PostgreSQL", "level": "core" },
+      { "name": "MongoDB", "level": "strong" },
+      { "name": "Redis", "level": "strong" },
+      { "name": "Elasticsearch", "level": "familiar" },
+      { "name": "DynamoDB", "level": "familiar" }
+    ]
+  },
+  {
+    "name": "Cloud & DevOps",
+    "items": [
+      { "name": "AWS", "level": "core" },
+      { "name": "Azure", "level": "strong" },
+      { "name": "Docker", "level": "core" },
+      { "name": "Kubernetes", "level": "strong" },
+      { "name": "Terraform", "level": "strong" },
+      { "name": "CI/CD", "level": "core" }
+    ]
+  },
+  {
+    "name": "Tools & Practices",
+    "items": [
+      { "name": "Git", "level": "core" },
+      { "name": "Agile/Scrum", "level": "core" },
+      { "name": "TDD", "level": "strong" },
+      { "name": "System Design", "level": "strong" },
+      { "name": "Code Review", "level": "core" }
+    ]
+  }
+]

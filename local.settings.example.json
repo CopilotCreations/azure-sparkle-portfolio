@@ -1,0 +1,18 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "NODE_ENV": "development",
+    "SENDGRID_API_KEY": "SG.your-api-key-here",
+    "CONTACT_TO_EMAIL": "owner@example.com",
+    "CONTACT_FROM_EMAIL": "no-reply@portfolio.example.com",
+    "TURNSTILE_SECRET_KEY": "0x4AAAAAAACCCCCCCCCCCCCC",
+    "RATE_LIMIT_WINDOW_SECONDS": "60",
+    "RATE_LIMIT_MAX_REQUESTS": "5"
+  },
+  "Host": {
+    "CORS": "*",
+    "CORSCredentials": false
+  }
+}

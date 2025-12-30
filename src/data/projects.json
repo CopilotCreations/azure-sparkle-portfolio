@@ -1,0 +1,80 @@
+[
+  {
+    "id": "project-alpha",
+    "title": "Project Alpha",
+    "tagline": "Lorem ipsum dolor sit amet consectetur adipiscing elit",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "tech": ["TypeScript", "React", "Node.js", "PostgreSQL", "Docker", "AWS"],
+    "githubUrl": "https://github.com/example/project-alpha",
+    "liveUrl": "https://project-alpha.example.com",
+    "images": ["/assets/projects/project-1.webp", "/assets/projects/project-2.webp"],
+    "metrics": [
+      "Reduced load time by 45%",
+      "Improved user engagement by 60%",
+      "Scaled to 100k daily active users"
+    ]
+  },
+  {
+    "id": "project-beta",
+    "title": "Project Beta",
+    "tagline": "Pellentesque habitant morbi tristique senectus et netus",
+    "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.",
+    "tech": ["Python", "FastAPI", "Redis", "Kubernetes"],
+    "githubUrl": "https://github.com/example/project-beta",
+    "liveUrl": null,
+    "images": ["/assets/projects/project-3.webp"],
+    "metrics": ["Processing 1M requests per day", "99.99% uptime SLA achieved"]
+  },
+  {
+    "id": "project-gamma",
+    "title": "Project Gamma",
+    "tagline": "Vivamus sagittis lacus vel augue laoreet rutrum",
+    "description": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum.",
+    "tech": ["Go", "gRPC", "MongoDB", "Terraform", "GCP"],
+    "githubUrl": "https://github.com/example/project-gamma",
+    "liveUrl": "https://project-gamma.example.com",
+    "images": [],
+    "metrics": []
+  },
+  {
+    "id": "project-delta",
+    "title": "Project Delta",
+    "tagline": "Aenean lacinia bibendum nulla sed consectetur",
+    "description": "Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
+    "tech": ["Rust", "WebAssembly", "Vue.js", "Cloudflare Workers"],
+    "githubUrl": null,
+    "liveUrl": "https://project-delta.example.com",
+    "images": [
+      "/assets/projects/project-1.webp",
+      "/assets/projects/project-2.webp",
+      "/assets/projects/project-3.webp"
+    ],
+    "metrics": [
+      "Sub-10ms response times globally",
+      "Zero-downtime deployments",
+      "40% cost reduction vs traditional hosting"
+    ]
+  },
+  {
+    "id": "project-epsilon",
+    "title": "Project Epsilon",
+    "tagline": "Etiam porta sem malesuada magna mollis euismod",
+    "description": "Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus.",
+    "tech": ["Java", "Spring Boot", "Kafka", "Elasticsearch", "Azure"],
+    "githubUrl": "https://github.com/example/project-epsilon",
+    "liveUrl": null,
+    "images": ["/assets/projects/project-2.webp"],
+    "metrics": ["Handles 500k events per second", "Real-time analytics with <100ms latency"]
+  },
+  {
+    "id": "project-zeta",
+    "title": "Project Zeta",
+    "tagline": "Morbi leo risus porta ac consectetur vestibulum",
+    "description": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "tech": ["C#", ".NET", "Blazor", "SignalR", "SQL Server"],
+    "githubUrl": "https://github.com/example/project-zeta",
+    "liveUrl": "https://project-zeta.example.com",
+    "images": [],
+    "metrics": ["Real-time collaboration for 10k concurrent users"]
+  }
+]

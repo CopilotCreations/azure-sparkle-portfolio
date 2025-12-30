@@ -1,0 +1,50 @@
+[
+  {
+    "company": "Lorem Tech Corp",
+    "role": "Senior Software Engineer",
+    "start": "2022-03",
+    "end": "present",
+    "bullets": [
+      "Led development of microservices architecture serving 500k daily active users",
+      "Mentored team of 5 junior engineers and conducted technical interviews",
+      "Reduced deployment time by 70% through CI/CD pipeline optimization",
+      "Architected real-time data processing system handling 1M events per hour"
+    ]
+  },
+  {
+    "company": "Ipsum Solutions Inc",
+    "role": "Software Engineer",
+    "start": "2020-06",
+    "end": "2022-02",
+    "bullets": [
+      "Developed and maintained React-based dashboard used by 10k enterprise clients",
+      "Implemented GraphQL API layer reducing frontend data fetching complexity by 50%",
+      "Collaborated with UX team to improve accessibility compliance to WCAG 2.1 AA",
+      "Built automated testing suite achieving 90% code coverage"
+    ]
+  },
+  {
+    "company": "Dolor Digital Agency",
+    "role": "Frontend Developer",
+    "start": "2018-09",
+    "end": "2020-05",
+    "bullets": [
+      "Created responsive web applications for diverse client portfolio",
+      "Introduced component library reducing development time by 40%",
+      "Optimized performance achieving Lighthouse scores above 95",
+      "Trained team on modern JavaScript frameworks and best practices"
+    ]
+  },
+  {
+    "company": "Sit Amet Startup",
+    "role": "Junior Developer",
+    "start": "2017-01",
+    "end": "2018-08",
+    "bullets": [
+      "Contributed to MVP development for B2B SaaS platform",
+      "Implemented RESTful APIs using Node.js and Express",
+      "Participated in agile ceremonies and sprint planning",
+      "Wrote technical documentation and API specifications"
+    ]
+  }
+]

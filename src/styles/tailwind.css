@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+  }
+
+  body {
+    @apply min-h-screen;
+  }
+
+  ::selection {
+    @apply bg-primary-500/30 text-white;
+  }
+}
+
+@layer components {
+  .nav-link.active {
+    @apply text-primary-400 font-medium;
+  }
+
+  .glass-card {
+    @apply bg-white/[0.08] backdrop-blur-xl border border-white/[0.12];
+  }
+
+  .project-card {
+    @apply glass-card rounded-xl overflow-hidden cursor-pointer;
+    @apply transition-all duration-300 ease-out;
+    @apply hover:bg-white/[0.12] hover:border-primary-500/30;
+    @apply hover:-translate-y-1 hover:shadow-lg hover:shadow-primary-500/10;
+    @apply focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-950;
+  }
+
+  .skill-chip {
+    @apply inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm;
+    @apply bg-gray-800 border border-gray-700;
+  }
+
+  .skill-level-core {
+    @apply bg-primary-500/20 text-primary-400;
+  }
+
+  .skill-level-strong {
+    @apply bg-accent-500/20 text-accent-400;
+  }
+
+  .skill-level-familiar {
+    @apply bg-gray-500/20 text-gray-400;
+  }
+
+  .timeline-item {
+    @apply relative pl-8 pb-8;
+    @apply before:absolute before:left-0 before:top-2 before:w-3 before:h-3;
+    @apply before:rounded-full before:bg-primary-500 before:ring-4 before:ring-primary-500/20;
+    @apply after:absolute after:left-[5px] after:top-5 after:w-0.5 after:h-full after:bg-gray-700;
+    @apply last:after:hidden last:pb-0;
+  }
+}
+
+@layer utilities {
+  .animate-gradient {
+    animation: gradient 12s ease infinite;
+  }
+
+  @keyframes gradient {
+    0%,
+    100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  #hero-gradient {
+    animation: none !important;
+    background-position: 0% 50% !important;
+  }
+
+  .animate-bounce {
+    animation: none !important;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-600;
+}
+
+/* Focus visible only for keyboard navigation */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+:focus-visible {
+  @apply outline-none ring-2 ring-primary-500 ring-offset-2 ring-offset-gray-950;
+}

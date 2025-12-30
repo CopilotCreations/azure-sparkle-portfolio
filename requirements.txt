@@ -1,0 +1,3 @@
+# requirements.txt is not needed for this project.
+# This is a Node.js project - see package.json for dependencies.
+# This file exists to satisfy projects that expect a Python requirements file.
