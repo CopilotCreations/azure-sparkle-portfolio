@@ -21,14 +21,31 @@ import os
 
 
 def run_command(command: list[str], cwd: str | None = None) -> int:
-    """Run a command and return the exit code."""
+    """Run a shell command and return the exit code.
+
+    Args:
+        command: The command and its arguments as a list of strings.
+        cwd: The working directory in which to run the command.
+            If None, uses the current working directory.
+
+    Returns:
+        The exit code of the command (0 for success, non-zero for failure).
+    """
     print(f"Running: {' '.join(command)}")
     result = subprocess.run(command, cwd=cwd, shell=True)
     return result.returncode
 
 
 def main() -> int:
-    """Main entry point."""
+    """Main entry point for the Azure Sparkle Portfolio CLI.
+
+    Parses command-line arguments and executes the corresponding npm command.
+    Displays help information if no arguments are provided or if the help
+    command is requested.
+
+    Returns:
+        Exit code: 0 for success, 1 for unknown command.
+    """
     if len(sys.argv) < 2:
         print(__doc__)
         return 0
